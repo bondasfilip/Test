@@ -1,0 +1,126 @@
+/*
+Theme Name: Filip Theme
+Theme URI: test.bondas.ro
+Author: Filip
+Author URI: test.bondas.ro
+Description: Test Theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blue, theme
+Text Domain: pheme
+
+*/
+
+
+body, h1, h3{
+	color:#00698f;
+}
+body h1, body h3,body h2{
+	color:#00698f;
+}
+p {
+	color:#00698f;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255,255,255,.0)!important;
+}
+
+ul#menu-menu li a {
+    color: #fff!important;
+    font-size: 22px;
+}
+
+ul#menu-menu li{
+    list-style:none;
+}
+
+#masthead{
+    background: #00698f;
+}
+
+#masthead:after {
+    width: 100%;
+    background: #00698f;
+    background: -moz-linear-gradient(-45deg, #00698f 0%, #ffffff 100%);
+    background: -webkit-linear-gradient(-45deg, #00698f 0%,#ffffff 100%);
+    background: linear-gradient(182deg, #00698f 50%,#ffffff 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00698f', endColorstr='#ffffff',GradientType=1 );
+    height: 100px;
+    display: block;
+    content: ' ';
+}
+
+.site_desc{
+	color: #fff;
+    font-weight: 300;
+    text-align: right;
+    font-size: 56px;
+    padding: 75px 0px 125px;
+}
+
+.bg-our-blue {
+    background-color: #00698f!important;
+}
+
+h1.title_large {
+    color: #00698f;
+    font-weight: 200;
+    font-size: 56px;
+}
+.title_normal{
+    color: #00698f;
+    font-weight: 200;
+    font-size: 42px;
+}
+
+.img_div {
+    margin-bottom: 25px;
+}
+
+.img_div img{    
+	object-position: center;
+    object-fit: cover;
+    height: 225px;
+	}
+
+.container.section_three {
+    margin-top: 50px;
+}
+
+.section_three .btn{
+	border-radius: 0px;
+    font-size: 22px;
+    font-weight: 300;
+    padding: 9px 18px;
+}
+
+p.text_size{
+	    min-height: 150px;
+}
+
+h1.archive-title,
+h1.recipes_title {
+    margin: 0px 0px 35px;
+}
+
+.entry-button{
+	margin:25px 0px;
+}
+.link{
+	font-weight:bold;
+}
+
+a#refresh {
+    margin-top: 25px;
+    color: #fff;
+}
+
+.list_of_products .content{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
